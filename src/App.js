@@ -1,6 +1,6 @@
 import "./App.css";
 import Expense from "./components/Expense/Expense";
-// import "./components/Expense/ExpenseItem";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   const expenseDataRaw = [
@@ -26,7 +26,8 @@ function App() {
 
   return (
     <div>
-      <h1>ReactJS App</h1>
+      <h1 >Expense Tracer</h1>
+      <NewExpense/>
       <Expense expenseData={expenseDataRaw}/>
     </div>
   );
