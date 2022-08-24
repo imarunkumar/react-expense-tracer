@@ -1,6 +1,6 @@
 import "./App.css";
-import Expense from "./components/Expense";
-import "./components/ExpenseItem";
+import Expense from "./components/Expense/Expense";
+// import "./components/Expense/ExpenseItem";
 
 function App() {
   const expenseDataRaw = [
@@ -8,19 +8,19 @@ function App() {
       _id: "01",
       expenseItem: "Clothings",
       expensePrice: 4211,
-      expenseDate: new Date(),
+      expenseDate:new Date(2022, 10, 18)
     },
     {
       _id: "02",
       expenseItem: "Travelings",
-      expensePrice: 28453,
-      expenseDate: new Date(),
+      expensePrice: 253,
+      expenseDate:new Date(2022, 1, 14)
     },
     {
       _id: "03",
       expenseItem: "Food",
       expensePrice: 1200,
-      expenseDate: new Date(),
+      expenseDate:new Date(2022, 10, 11)
     },
   ];
 
