@@ -1,0 +1,20 @@
+.expense-button-div {
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #40005d;
+    border: 1px solid white;
+    padding: 0.5rem;
+    margin-left: 0.4    rem;
+    border-radius: 12px;
+  }
+  .expense-button{
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #40005d;  
+  }
