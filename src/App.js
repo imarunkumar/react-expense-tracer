@@ -16,7 +16,7 @@ function App() {
       _id: "02",
       expenseItem: "Travelings",
       expensePrice: 253,
-      expenseDate:new Date(2020, 1, 14)
+      expenseDate:new Date(2021, 1, 14)
     },
     {
       _id: "03",
@@ -47,7 +47,7 @@ function App() {
  
 const saveExpenseData = (addExpense)=>{
   setExpenseDataRaw((preState)=>{
-    return[...preState,addExpense,];
+    return[...preState,addExpense];
   })
   console.log(expenseDataRaw);
 }

@@ -1,7 +1,6 @@
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
-import Button from "../UI/Button";
 
 function ExpenseItem(props) {
   const expenseItem = props.expenseItem;
@@ -14,7 +13,7 @@ function ExpenseItem(props) {
         <h2>{expenseItem}</h2>
         <div className="expense-item__price">${expensePrice}</div>
       </div>
-      <Button text={"Delete"}/>
+      {/* <Button text={"Delete"}/> */}
     </Card>
   );
 }
